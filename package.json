@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/springload/prettier-config-springload/issues"
   },
-  "homepage": "https://github.com/springload/prettier-config-springload#readme"
+  "homepage": "https://github.com/springload/prettier-config-springload#readme",
+  "devDependencies": {
+    "prettier": "^1.12.1"
+  }
 }
