@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx babel lib/index.js --out-file dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/springload/prettier-config-springload#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "prettier": "^1.12.1"
   }
 }
