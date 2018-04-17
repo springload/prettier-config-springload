@@ -1,31 +1,33 @@
 {
-  "name": "prettier-config-springload",
-  "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "build": "npx babel lib/index.js --out-file dist/index.js",
-    "lint": "npx eslint ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/springload/prettier-config-springload.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/springload/prettier-config-springload/issues"
-  },
-  "homepage": "https://github.com/springload/prettier-config-springload#readme",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "eslint": "^4.19.1",
-    "eslint-plugin-springload": "^2.2.0",
-    "prettier": "^1.12.1"
-  }
+    "name": "prettier-config-springload",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "build": "npx babel lib/index.js --out-file dist/index.js",
+        "lint": "npx eslint ."
+    },
+    "repository": {
+        "type": "git",
+        "url":
+            "git+https://github.com/springload/prettier-config-springload.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/springload/prettier-config-springload/issues"
+    },
+    "homepage":
+        "https://github.com/springload/prettier-config-springload#readme",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "eslint": "^4.19.1",
+        "eslint-plugin-springload": "^2.2.0",
+        "prettier": "^1.12.1"
+    }
 }
