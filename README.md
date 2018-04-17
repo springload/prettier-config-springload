@@ -10,7 +10,7 @@ npm install --save-dev prettier springload-config-prettier
 
 ## How to use
 
-Simply create a file at your project root called `prettier.config.js`, with the following:
+Create a file at your project’s root called `prettier.config.js`, with the following:
 
 ```js
 const config = require('prettier-config-springload');
@@ -18,4 +18,4 @@ const config = require('prettier-config-springload');
 module.exports = config;
 ```
 
-… and you’re done!
+…and you’re done!
