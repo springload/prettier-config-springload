@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "npx babel lib/index.js --out-file dist/index.js"
+    "build": "npx babel lib/index.js --out-file dist/index.js",
+    "lint": "npx eslint ."
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-springload": "^2.2.0",
     "prettier": "^1.12.1"
   }
 }
