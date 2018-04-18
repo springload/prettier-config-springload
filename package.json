@@ -9,9 +9,6 @@
             "url": "https://github.com/ryami333"
         }
     ],
-    "directories": {
-        "lib": "lib"
-    },
     "files": [
         "dist/"
     ],
