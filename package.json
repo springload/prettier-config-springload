@@ -3,6 +3,12 @@
     "version": "1.0.0",
     "description": "",
     "main": "dist/index.js",
+    "authors": [
+        {
+            "name": "Mitch Ryan",
+            "url": "https://github.com/ryami333"
+        }
+    ],
     "directories": {
         "lib": "lib"
     },
