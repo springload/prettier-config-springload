@@ -1,8 +1,12 @@
 {
     "name": "prettier-config-springload",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Standardised importable Prettier configuration.",
-    "keywords": ["prettier", "config", "springload"],
+    "keywords": [
+        "prettier",
+        "config",
+        "springload"
+    ],
     "main": "dist/index.js",
     "files": [
         "dist/"
