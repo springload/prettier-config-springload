@@ -2,7 +2,7 @@ version: 2
 jobs:
   install-job:
     docker:
-      - image: circleci/node:8
+      - image: circleci/node:8.11
     working_directory: ~/repo
     steps:
       - checkout
@@ -22,7 +22,7 @@ jobs:
 
   lint-job:
     docker:
-      - image: circleci/node:8
+      - image: circleci/node:8.11
     working_directory: ~/repo
     steps:
       - checkout
@@ -32,7 +32,7 @@ jobs:
 
   build-job:
     docker:
-      - image: circleci/node:8
+      - image: circleci/node:8.11
     working_directory: ~/repo
     steps:
       - checkout
@@ -40,9 +40,21 @@ jobs:
           at: ~/repo
       - run: npm run build
 
+  publish-job:
+    docker:
+      - image: circleci/node:8.11
+    working_directory: ~/repo/packages/react-accessible-tooltip
+    steps:
+      - checkout:
+          path: ~/repo
+      - attach_workspace:
+          at: ~/repo
+      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+      - run: npm publish
+
 workflows:
   version: 2
-  build-deploy:
+  build-publish:
     jobs:
       - install-job:
           filters:
@@ -60,3 +72,13 @@ workflows:
           filters:
             tags:
               only: /.*/
+      - publish-job:
+          requires:
+            - lint-job
+            - test-job
+            - build-job
+          filters:
+            tags:
+              only: /.*/
+            branches:
+              ignore: /.*/
