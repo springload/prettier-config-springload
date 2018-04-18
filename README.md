@@ -19,3 +19,7 @@ module.exports = config;
 ```
 
 …and you’re done!
+
+# Contributing / Development
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
