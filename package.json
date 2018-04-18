@@ -20,7 +20,6 @@
         "type": "git",
         "url": "git+https://github.com/springload/prettier-config-springload.git"
     },
-    "author": "",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/springload/prettier-config-springload/issues"
