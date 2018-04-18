@@ -75,7 +75,6 @@ workflows:
       - publish-job:
           requires:
             - lint-job
-            - test-job
             - build-job
           filters:
             tags:
