@@ -1,6 +1,6 @@
 {
     "name": "prettier-config-springload",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Standardised importable Prettier configuration.",
     "keywords": [
         "prettier",
