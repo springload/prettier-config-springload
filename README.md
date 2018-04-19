@@ -5,7 +5,7 @@ An importable Prettier configuration for standardised use across projects.
 ## Installation
 
 ```
-npm install --save-dev prettier springload-config-prettier
+npm install --save-dev prettier prettier-config-springload
 ```
 
 ## How to use
