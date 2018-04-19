@@ -1,4 +1,4 @@
-# Prettier Config Springload
+# Prettier Config Springload ![npm](https://img.shields.io/npm/v/prettier-config-springload.svg) ![license](https://img.shields.io/github/license/springload/prettier-config-springload.svg) ![CircleCI](https://img.shields.io/circleci/project/github/springload/prettier-config-springload.svg)
 
 An importable Prettier configuration for standardised use across projects.
 
